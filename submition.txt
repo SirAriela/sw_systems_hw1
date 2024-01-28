@@ -1,4 +1,3 @@
 git@github.com:SirAriela/sw_systems_hw1.git
-8f67aadef61ca2cdbf80627d535057453ded83e2
+220cf75
 206862666 314950551
-
