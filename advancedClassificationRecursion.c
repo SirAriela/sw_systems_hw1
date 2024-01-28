@@ -73,7 +73,7 @@ int checkIsArmstrong(int x,int length)
         temlen--;
        
     }
-     printf("The number is: %d\n", temp);
+
 
     return temp + checkIsArmstrong((x / 10), length);
 }

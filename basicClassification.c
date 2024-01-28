@@ -46,14 +46,20 @@ int isStrong(int s)
         for (i = 1; i <= modolo; i++)
         {
             cerontDigitSum = cerontDigitSum * i;
-            /* code */
         }
         sum = sum + cerontDigitSum;
+        s /= 10; // Update the value of s
     }
+    // Calculate the factorial of the last digit
+    cerontDigitSum = 1;
+    for (i = 1; i <= s; i++)
+    {
+        cerontDigitSum = cerontDigitSum * i;
+    }
+    sum = sum + cerontDigitSum;
     if (s2 == sum)
     {
         return 1;
-        /* code */
     }
     return 0;
 }
