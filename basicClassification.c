@@ -19,7 +19,7 @@ int isPrime(int x)
     {
         a = a + 1;
     }
-    for (i = 2; i < a + 1; i++)
+    for (i = 3; i < a + 1; i++)
     {
         if (x % i == 0)
         {
