@@ -15,11 +15,14 @@ int isPrime(int x)
         return 1;
     }
 
+    if (x == 2)
+        return 2;
+
     while (a * a < x)
     {
         a = a + 1;
     }
-    for (i = 3; i < a + 1; i++)
+    for (i = 2; i < a + 1; i++)
     {
         if (x % i == 0)
         {
